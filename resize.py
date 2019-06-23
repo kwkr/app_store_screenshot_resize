@@ -8,13 +8,15 @@ try:
 except:
     pass
 
-sizes = [{'iPhone 3 4': (640, 960)},
-{'iPhone 5': (640, 1136)},
-{'iPhone 6 7 8': (750, 1334)},
-{'iPhone 6 7 8 Plus': (1242 , 2208)},
-{'iPhone X': (1125 , 2436)},
-{'iPad (Air and Mini Retina)': (1536 , 2048)},
-{'iPad Pro': (2048 , 2732)},
+sizes = [{'3,5 inch iPhone 3 4': (640, 960)},
+{'4 inch iPhone 5': (640, 1136)},
+{'4,7 inch iPhone 6 7 8': (750, 1334)},
+{'5,5 inch iPhone 6 7 8 Plus': (1242 , 2208)},
+{'5,8 inch iPhone X': (1125 , 2436)},
+{'6,5 inch iPhone Xs Max': (1242 , 2436)},
+{'9,7 inch iPad (Air and Mini Retina)': (1536 , 2048)},
+{'10,5 inch iPad (Air and Mini Retina)': (1668 , 2224)},
+{'11 inch iPad Pro': (2048 , 2732)},
 ]
 
 def resizeFile(file, dimension):
